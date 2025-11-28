@@ -16,6 +16,7 @@
     </header>
 
     <main class="main">
+      
         
               <h2 class="section-title">Encontrá las mejores películas</h2>
               
