@@ -1,0 +1,270 @@
+.cine-header {
+  background: url(/src/assets/img/cinema-concept-horizontal-banner-with-copy-space-vector.jpg);
+  position: relative;
+  padding: 50px;
+  background-size: auto 400px;
+  text-align: left;
+  height: 400px;
+  display: flex;
+    flex-direction: column;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+    justify-content: flex-start;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+
+.cine-header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.cine-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+
+.card {
+  background: #000;
+  color:#8b0000
+;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.274);
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  filter: brightness(1.2);
+}
+
+.card img {
+  border-radius: 5px;
+}
+.cine-footer {
+  background: #000;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 60px;
+  border-top: 6px solid #8b0000;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    /* width: 50px; */
+    /* height: 50px; */
+    font-size: 1.5rem;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: #a50909; /* Un rojo un poco más claro al pasar el ratón */
+}
+
+/* Media Query para hacerlo más pequeño en móviles */
+@media (max-width: 600px) {
+    .scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        line-height: 40px;
+    }
+}
+.card a{
+    background-color: #a73b3b;
+    padding: 8px;
+    margin: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.card a:hover{
+    background-color: #aa7b7b;
+    color: #f8f8f8;
+    padding: 8px;
+    margin: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#app{
+    margin: 20px;
+
+}
+.asientos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.asiento {
+  width: 40px;
+  height: 40px;
+  background: #8b0000;
+  border-radius: 8px 8px 3px 3px;
+  box-shadow: inset 0 -4px #5a0000;
+}
+body {
+  background: #111 url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.filters select{
+    color: #ffffff;
+    padding: 10px;
+    background-color: #470707;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+.hero {
+  position: relative;
+  background: url('img/cine.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+  margin: auto;
+}
+.favcard {
+  display: flex;
+  gap: 18px;
+  padding: 18px;
+  border-radius: 16px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  transition: all .25s ease;
+}
+
+.favcard:hover {
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.10);
+}
+.favcard button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 5px;
+  width: 38px;
+  height: 38px;
+color: #fff;
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(240, 240, 240, 0.575);
+
+  backdrop-filter: blur(6px);
+  border-radius: 50%;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all .25s ease;
+}
+
+.favcard button:hover {
+  background: rgba(255,255,255,0.18);
+  transform: scale(1.12);
+  color: #fff;
+}
+
+.favcard a{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 8px;
+    background-color: #8b000096;
+}
+.navbar {
+  position: absolute;
+  height: 370px;
+  width: 100%;
+  padding: 30px 80px;
+  display: flex;
+  align-items: left
+;
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.hero-content {
+  max-width: 600px;
+  color: #fff;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+}
+.pegaso {
+  top: 1px;
+  width: 450px;   /* ajustalo como quieras */
+  z-index: 10;
+  pointer-events: none; /* por si molesta en los clics */
+}
+
+.hero-content img {
+  padding: 20px;
+  max-width: 100%;
+  height: auto;   
+  margin-bottom: 20px;
+  right: 250px; 
+
+}
+.controls{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;  
+    align-items: baseline;
+    justify-content: space-around;
+}
