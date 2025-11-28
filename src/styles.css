@@ -8,7 +8,25 @@
 * {
     box-sizing: border-box
 }
+@media (max-width: 600px) {
 
+    header {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  
+    header img {
+      width: 120px;        /* ajustalo si querés */
+      max-width: 80%;      /* nunca se pasa */
+    }
+  }
+  @media (max-width: 600px) {
+    .pegaso {
+      display: none !important;
+    }
+  }
+  
 body {
     margin: 0;
     font-family: Inter, Arial, Helvetica, sans-serif;
